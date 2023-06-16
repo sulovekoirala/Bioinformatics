@@ -1,2 +1,4 @@
 # Bioinformatics
-I will share the codes that I learn and use in bioinformatics
+Phylogenetic tree is a graphical representation of the evolutionary relationships among different organisms or sequences based on their similarities and differences.
+
+In this project, we aim to compare the phylogeny of some streptococcus species of bacteria, which are gram-positive cocci that cause various infections in humans and animals. We have downloaded the fasta files of the 16S rRNA sequences of eight streptococcus species from the NCBI database, using their accession numbers. The 16S rRNA sequences are widely used for bacterial identification and phylogenetic analysis, as they contain conserved and variable regions that reflect the evolutionary relationships among different taxa. We will use R and some Bioconductor packages to perform multiple sequence alignment, distance calculation, and phylogenetic tree construction and visualization.
