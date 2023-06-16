@@ -2,6 +2,7 @@
 library(Biostrings)
 library(ape)
 library(msa)
+library(ggtree)
 
 # Download the 16S rRNA sequences of some streptococcus bacteria from GenBank
 seq1 <-  readDNAStringSet("zoo16s.fasta")
@@ -23,5 +24,5 @@ dist <- dist.dna(aln)
 # Construct a phylogenetic tree using nj() function from ape
 tree <- nj(dist)
 
-# Plot the tree using plot.phylo() function from ape
-plot.phylo(tree)
+# Plotting the tree
+ggtree(tree)+geom_nodepoint()+geom_tippoint()+geom_tiplab() + geom_treescale()
