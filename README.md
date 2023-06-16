@@ -6,4 +6,6 @@ In this project, we aim to compare the phylogeny of some streptococcus species o
 <H2> Result </H2>
 <img src="https://github.com/sulovekoirala/Bioinformatics/blob/main/IMG/Phylogenetic%20Tree.svg">
 
+Additionally, you can customize the trees into various shapes and designs using the [ggtree package](https://github.com/YuLab-SMU/ggtree) 
+
 
